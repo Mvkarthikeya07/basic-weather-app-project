@@ -1,29 +1,32 @@
-# Basic Weather App (Python)
+# 🌤️ WeatherNow
 
-## Overview
-A simple Python application that fetches and displays current weather information for a given location. This project was created to practice basic API usage and Python scripting.
+A clean, no-nonsense desktop weather app. Type a city, hit a button, get real-time conditions — no clutter, no ads, no fluff.
+
+## Features
+- Live weather data via the OpenWeatherMap API
+- Temperature, condition, humidity, and wind speed at a glance
+- Minimal Tkinter GUI — fast to launch, easy to read
+- Graceful error handling for invalid cities or connection issues
 
 ## Tech Stack
-- Python  
-- Requests  
+`Python` · `Tkinter` · `Requests` · `OpenWeatherMap API`
 
-## Files
-- `weather_app.py` – main Python script  
-- `README.md` – project documentation  
-
-## How to Run
+## Run It
 ```bash
 pip install requests
 python weather_app.py
-Output
+```
 
-Displays basic weather details such as temperature and weather condition.
+## Setup
+Grab a free API key from [OpenWeatherMap](https://openweathermap.org/api) and set it as an environment variable rather than hardcoding it:
+```python
+api_key = os.environ.get("OWM_API_KEY")
+```
 
-Purpose
+## Roadmap
+- [ ] 5-day forecast view
+- [ ] Auto-detect location
+- [ ] °C / °F toggle
 
-Learning and practicing Python basics and API integration.
-
-
-Author
-
-M V Karthikeya
+---
+*Simple input. Instant answer. That's the whole point.*
