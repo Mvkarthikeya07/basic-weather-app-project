@@ -1,4 +1,4 @@
-# 🌤️ WeatherNow
+# 🌤️ Weather App
 
 A clean, no-nonsense desktop weather app. Type a city, hit a button, get real-time conditions — no clutter, no ads, no fluff.
 
